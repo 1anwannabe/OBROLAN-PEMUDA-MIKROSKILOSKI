@@ -1,26 +1,108 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
-    <link rel="stylesheet" href="wiwi.css" />
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<meta name="description" content="">
+<meta name="author" content="webthemez">
+<link href="assets/css/bootstrap.css" rel="stylesheet">
+<link href="assets/css/styles.css" rel="stylesheet">
+<link href="assets/css/font-awesome.min.css" rel="stylesheet">
+<link href="assets/css/animate-custom.css" rel="stylesheet"> 
 </head>
-<body>
-    <div class="navbar-header">
-        <button type="button" id="nav-toggle" class="navbar-toggle" data-toggle="collapse" data-target="#main-nav"> <span class="sr-only">Toggle navigation</span> <span class="icon-bar"></span> <span class="icon-bar"></span> <span class="icon-bar"></span> </button>
-    </div>
-    <div id="main-nav" class="collapse navbar-collapse">
-        <ul class="nav navbar-nav" id="mainNav">
-          <li class="active"><a href="#Tentang" class="scroll-link">Tentang</a></li>
-          <li><a href="#Menu" class="scroll-link">Menu</a></li>
-          <li><a href="#Toko" class="scroll-link">Toko</a></li>
-          <li><a href="#Investor" class="scroll-link">Investor</a></li>
-          <li><a href="#Tata Kelola" class="scroll-link">Tata Kelola</a></li>
-          <li><a href="#Kolaborasi" class="scroll-link">Kolaborasi</a></li>
-          <li><a href="#Berita" class="scroll-link">Berita</a></li>
-          <li><a href="#Karir" class="scroll-link">Karir</a></li>
-          <li><a href="#Kontak" class="scroll-link">Kontak</a></li>
+<body data-target="#navbar-main">
+<div id="navbar-main"> 
+  <div class="navbar navbar-inverse navbar-fixed-top">
+    <div class="container">
+	 
+      <div class="navbar-header">
+	   <div class="pull-left logo">
+        <a class="" href="#home"><img src="assets/img/logo.png" /></a>
+       </div>
+        <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-collapse"> <span class="icon-bar"></span> <span class="icon-bar"></span> <span class="icon-bar"></span> </button>
+        </div>
+      <div class="navbar-collapse collapse">
+        <ul class="nav navbar-nav pull-right">
+          <li><a href="#home-section" class="smoothScroll">Welcome</a></li>
+          <li> <a href="#services" class="smoothScroll">We Offer</a></li>		  
+          <li> <a href="#about" class="smoothScroll"> Our Shop</a></li>
         </ul>
-</body>
-</html>
+      </div>
+    </div>
+  </div>
+</div>
+
+<div id="home-section">
+<div id="headerwrap" name="home">
+  <header class="clearfix tb"> 
+ <div class="tb-cell text-center">
+ <i class="fa fa-heart-o icon"></i>
+    <h1>Kopi - Membuat Anda Mencintai</h1>
+    <p>Banyak Hal yang Bisa Terjadi Saat Minum Kopi, Luar Biasa!!! </p>
+    <a href="#portfolio" class="smoothScroll btn btn-lg">SELAMAT DATANG DI SENJA COFEE</a> 
+	</div>
+	</header>
+</div>
+
+</div>
+<div class="div-pattern2"></div>
+
+<div id="services" name="services">
+  <div class="container">
+    <div class="row">
+      <h2 class="centered">WHAT WE OFFER</h2>
+      <hr>
+      <div class="col-lg-8 col-lg-offset-2">
+        <p class="large">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aut eaque, laboriosam veritatis, quos non quis ad perspiciatis, totam corporis ea, alias ut unde.</p>
+      </div>
+      <div class="col-lg-4 callout"> <i class="fa fa-cubes fa-3x"></i>
+        <h3>COFFEE</h3>
+        <p>Erat imperdiet dissentias ea usu, alia aliquid corrumpit ea qui. Eu vim oratio conclusionemque, vel at errem nominavi delicatissimi.</p>
+      </div>
+      <div class="col-lg-4 callout"> <i class="fa fa-flask fa-3x"></i>
+        <h3>TEA</h3>
+        <p>Erat imperdiet dissentias ea usu, alia aliquid corrumpit ea qui. Eu vim oratio conclusionemque, vel at errem nominavi delicatissimi.</p>
+      </div>
+      <div class="col-lg-4 callout"> <i class="fa fa-life-ring fa-3x"></i>
+        <h3>CAKES</h3>
+        <p>Erat imperdiet dissentias ea usu, alia aliquid corrumpit ea qui. Eu vim oratio conclusionemque, vel at errem nominavi delicatissimi.</p>
+      </div>
+    </div>
+  
+  </div>
+</div>
+
+<section class="hero-section section">  
+        <div class="container">
+            <div class="highlight tb">
+                <div class="tb-cell">
+                    <p>Erat imperdiet dissentias ea usu, alia aliquid corrumpit ea qui!</br>
+					erant bonorum albucius et per, ei sapientem accommodare est. Saepe dolorum constituam ei!!</p>
+                </div>
+                <div class="links tb-cell">
+                    <div class="reservation-link">
+                        <a href="#" class="btn reservation-btn">RESERVATION</a> 
+                    </div> 
+                </div>
+            </div>
+        </div>
+		
+    </section>
+	<div class="div-pattern"></div>
+
+<div id="about" name="about">
+  <div class="container">
+    <div class="row white">
+      <h2 class="centered">Our Shop</h2>
+      <hr>
+      <div class="col-md-6"> <img class="img-responsive" src="assets/img/about/about1.jpg" align=""> </div>
+      <div class="col-md-6">
+        <h3>Who we are</h3>
+        <p>Lorem ipsum dolor sit amet, quo meis audire placerat eu, te eos porro veniam. An everti maiorum detracto mea. Eu eos dicam voluptaria, erant bonorum albucius et per, ei sapientem accommodare est. Saepe dolorum constituam ei vel. Te sit malorum ceteros repudiandae, ne tritani adipisci vis.</p>
+        <h3>Why choose us?</h3>
+        <p>Lorem ipsum dolor sit amet, quo meis audire placerat eu, te eos porro veniam. An everti maiorum detracto mea. Eu eos dicam voluptaria, erant bonorum albucius et per, ei sapientem accommodare est. Saepe dolorum constituam ei vel.</p>
+      </div>
+    </div>
+
+  </div>
+</div>
